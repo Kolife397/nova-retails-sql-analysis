@@ -4,7 +4,11 @@ A SQL portfolio project analyzing a synthetic retail dataset to examine business
 
 ## Project Overview
 
-This project uses SQLite to explore a fictional retailer's sales and order data. The analysis is organized into 31 queries across seven sections, moving from overall business performance to product, customer, employee, order, payment-method, and delivery/fulfilment analysis.
+This project uses SQLite to explore a fictiona<img width="904" height="389" alt="image" src="https://github.com/user-attachments/assets/c70d9fa6-e6b2-48a4-afa2-ddccd57da681" />
+<img width="904" height="389" alt="image" src="https://github.com/user-attachments/assets/dbc17ae9-3b5d-40d8-957b-34928696c5bb" />
+<img width="904" height="389" alt="image" src="https://github.com/user-attachments/assets/5284df67-18fb-459b-a9b3-e7698eb671a4" />
+<img width="904" height="389" alt="image" src="https://github.com/user-attachments/assets/b184469b-bb2d-4629-9690-ec2e4bfa890c" />
+l retailer's sales and order data. The analysis is organized into 31 queries across seven sections, moving from overall business performance to product, customer, employee, order, payment-method, and delivery/fulfilment analysis.
 
 The goal is to demonstrate practical SQL skills: joining relational tables, aggregating data, calculating business metrics, using common table expressions (CTEs), subqueries, CASE expressions, window functions, and date functions, and organizing queries around business questions.
 
@@ -74,7 +78,12 @@ The dataset does not specify a currency, so the values are shown without a curre
 
 ## Repository Structure
 
-After adding the project files, the repository is intended to follow this structure:
+The project files are organized in the repository's root directory:
+
+nova-retails-sql-analysis/
+├── README.md
+├── NOVA Retails Dataset.sql
+└── NOVA_Retail_Business_Analysis.sql
 
 ```text
 nova-retails-sql-analysis/
