@@ -75,26 +75,19 @@ The dataset does not specify a currency, so the values are shown without a curre
 
 The project files are organized in the repository's root directory:
 
+```text
 nova-retails-sql-analysis/
 ├── README.md
 ├── NOVA Retails Dataset.sql
 └── NOVA_Retail_Business_Analysis.sql
-
-```text
-nova-retails-sql-analysis/
-├── README.md
-├── dataset/
-│   └── NOVA Retails Dataset.sql
-└── sql/
-    └── NOVA_Retail_Business_Analysis.sql
 ```
 
 ## How to Run the Project
 
 1. Clone or download this repository.
 2. Open a SQLite-compatible database tool, such as DB Browser for SQLite.
-3. Open the dataset setup script in the `dataset/` folder and execute it first. This creates and populates the five tables.
-4. Open `sql/NOVA_Retail_Business_Analysis.sql`.
+3. Open `NOVA Retails Dataset.sql` from the repository's root directory and execute it first. This creates and populates the five database tables.
+4. Open `NOVA_Retail_Business_Analysis.sql` from the repository's root directory.
 5. Run the numbered queries individually or section by section to inspect each result set.
 
 Run the dataset setup script before the analysis script. The analysis queries expect the five tables to exist in the active SQLite database.
