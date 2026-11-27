@@ -1,7 +1,7 @@
 PRAGMA foreign_keys = ON;
 
 -- NovaRetail Ltd: Sales Analysis Case Study
--- MySQL 8.0+ compatible
+-- SQLite compatible
 -- Generated deterministic dummy data for analytics practice
 CREATE TABLE customers (
     customer_id INT PRIMARY KEY,
